@@ -10,4 +10,5 @@ var a = 1;
 var char = 'a';
 
 // Strings
-var name = "Pablo Andrés Dorado";
+var pablo = "Pablo Andrés Dorado";
+var javier = "Javier Andres Collazos";
