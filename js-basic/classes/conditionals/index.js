@@ -9,10 +9,14 @@
  *
  */
 
-var edad = /* Ingrese su edad en números */;
+var edad = 15;
 
-if(/* edad es mayor o igual a 15 */){
-    // Imprima "Soy el mejor"
-} else {
-    // Imprima "No, alguien más es el mejor"
+if (edad >= 15)
+{
+   console.log ("Soy el Mejor");
+}
+
+else if (edad < 15)
+{
+    console.log ("No,alguien mas es el mejor");
 }
