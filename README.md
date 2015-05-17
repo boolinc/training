@@ -1,7 +1,4 @@
-# training
-Training Bool
-
-#Markdown!!!
+#Training Bool - Markdown:
 
 **Markdown** es una curiosa herramienta para darle mucho _estilo_ a nuestros documentos
 con ella podemos hacer listas personalizadas:
@@ -9,18 +6,32 @@ con ella podemos hacer listas personalizadas:
 * y esto
 * y tambien esto.
 
-
 y tambien listas con numeros ! **(Damn!)**
 1. Esto es bool
 2. Esto tambien
 3. y finalmente esto!
 
-Tambien podemos especificar (creo que asi le dicen ...)
-> esto de aca esta bien especificado(y)
+Tambien podemos citar (Eso era , citar)
+> _"Aqui va la frase que desee citar"_
 
 y hasta podemos poner imagenes!:
 
 ![aliencliffjav](https://avatars2.githubusercontent.com/u/12130544?v=3&s=460)
+
+Tambien es ~~Cool~~ Bool Subrayar
+
+y explicar comandos , tambien esta bool:
+
+```javascript
+
+ alert(omg esto si esta bien raro!)
+
+```
+Algunos cuadros tampoco estan mal
+
+Esto no esta mal | ni esto tampoco
+-----------------|----------------
+mucho menos esto | ni esto
 
 **_si quieres puedes pasarte por mi [perfil](https://github.com/cliffjav)_**
 
