@@ -2,16 +2,18 @@
 
 **Markdown** es una curiosa herramienta para darle mucho _estilo_ a nuestros documentos
 con ella podemos hacer listas personalizadas:
+
 * como esto
 * y esto
 * y tambien esto.
 
-y tambien listas con numeros ! **(Damn!)**
+y tambien listas con numeros ! **(Damn!)**:
+
 1. Esto es bool
 2. Esto tambien
 3. y finalmente esto!
 
-Tambien podemos citar (Eso era , citar)
+Tambien podemos citar (Eso era , citar):
 > _"Aqui va la frase que desee citar"_
 
 y hasta podemos poner imagenes!:
