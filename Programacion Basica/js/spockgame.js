@@ -140,3 +140,5 @@ else
 {
   alert("Debes Elegir una opcion Valida");
 }
+
+//ESTRUCTURA LARGA Y DESORNADA *NOTA MENTAL: INTENTAR HACERLA MAS CORTA Y ORDENADA*.
