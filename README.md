@@ -24,7 +24,7 @@ y explicar comandos , tambien esta bool:
 
 ```javascript
 
- alert(omg esto si esta bien raro!)
+ alert(omg esto si esta bien raro!);
 
 ```
 Algunos cuadros tampoco estan mal
