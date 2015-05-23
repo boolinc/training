@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /**
  *
@@ -11,12 +11,8 @@
 
 var edad = 15;
 
-if (edad >= 15)
-{
+if (edad >= 15) {
    console.log ("Soy el Mejor");
-}
-
-else if (edad < 15)
-{
-    console.log ("No,alguien mas es el mejor");
+} else {
+    console.log ("No, alguien mas es el mejor");
 }
