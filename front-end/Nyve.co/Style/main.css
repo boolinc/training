@@ -4,18 +4,22 @@
     background-color: #33CCFF;
 }
 #header{
-    height: 300px;
+    height: 250px;
     width: 100%;
+    display: flex ;
+    justify-content:center;
     /*border: 2.5px solid #000000;*/
+    padding-top:50px;
 }
 #logo{
     background-image:url("../img/nyvelogo.png");
-    background-size:15%;
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     /*border: 2.5px solid #AAEEFF;*/
+    margin-right:5px;
 }
 #midder{
     height: 150px;
@@ -31,26 +35,49 @@
     padding-bottom:50px;
 
 }
-.ball{
-    height: 85px;
-    width: 140px;
-    text-align: center;
-    /*border: 2.5px solid #AAFF00;*/
-    background-image:url("../img/circulo.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-    padding-top: 58px;
-}
 #qen{
-    height: 95px;
+    height: 140px;
     width: 140px;
-    text-align: center;
     /*border: 2.5px solid #AAFF00;*/
-    background-image:url("../img/circulo.png");
+    background-image:url("../img/qen.png");
     background-size:100%;
     background-repeat: no-repeat;
     padding-top: 48px;
 }
+#qen:hover{
+    background-image:url("../img/qenhover.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#pro{
+    height: 140px;
+    width: 140px;
+    background-image:url("../img/pro.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    /*border: 2.5px solid #AAFF00;*/
+}
+#pro:hover{
+    background-image:url("../img/prohover.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#cot{
+    height: 140px;
+    width: 140px;
+    background-image:url("../img/cot.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    /*border: 2.5px solid #AAFF00;*/
+}
+#cot:hover{
+    background-image:url("../img/cothover.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
 @font-face {
     font-family: "cocomat";
     src: url("../fonts/Cocomat Ultralight-trial.ttf") format("truetype"),
@@ -75,7 +102,7 @@
 }
 #twitter{
     width: 50px;
-    height: 50px;;
+    height: 50px;
     background-image:url("../img/twitter.png");
     background-size:100%;
     background-repeat: no-repeat;
@@ -86,4 +113,18 @@
     background-image:url("../img/youtube.png");
     background-size:100%;
     background-repeat: no-repeat;
+}
+#facebook:hover{
+    background-image:url("../img/facebookcolor.png");
+    color:#000;
+    cursor: pointer;
+    onclick:"location.href=’http://www.nuestraURL.com’"; " style=”cursor:pointer;”
+}
+#twitter:hover{
+    background-image:url("../img/twittercolor.png");
+    cursor: pointer;
+}
+#youtube:hover{
+    background-image:url("../img/youtubecolor.png");
+    cursor: pointer;
 }
