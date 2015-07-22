@@ -48,7 +48,7 @@
     background-image:url("../img/qenhover.png");
     background-repeat: no-repeat;
     cursor: pointer;
-}
+} 
 #pro{
     height: 140px;
     width: 140px;
@@ -118,7 +118,6 @@
     background-image:url("../img/facebookcolor.png");
     color:#000;
     cursor: pointer;
-    onclick:"location.href=’http://www.nuestraURL.com’"; " style=”cursor:pointer;”
 }
 #twitter:hover{
     background-image:url("../img/twittercolor.png");
