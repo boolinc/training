@@ -1,3 +1,5 @@
+//"mover" id del boton predeterminado
+
 var tablero;
 
 var fondo = {
@@ -25,8 +27,17 @@ function inicio()
     tifis.frente.src = tifis.frenteURL;
     tifis.frente.onload = confirmarFrente;
 
-    var m = document.getElementById("mover");
-    m.addEventListener("click", movimiento);
+    var d = document.getElementById("derecha");
+    d.addEventListener("click", derecha);
+
+    var i = document.getElementById("izquierda");
+    i.addEventListener("click", izquierda);
+
+    var a = document.getElementById("arriba");
+    a.addEventListener("click", arriba);
+
+    var b = document.getElementById("abajo");
+    b.addEventListener("click", abajo);
 }
 function confirmarFondo()
 {
@@ -49,8 +60,25 @@ function dibujar()
         tablero.drawImage(tifis.frente, tifis.x,tifis.y);
     }
 }
-function movimiento()
+function derecha()
 {
     tifis.x += 10;
+    dibujar();
+}
+function izquierda()
+{
+    tifis.x -= 10;
+    dibujar();
+}
+
+function arriba()
+{
+    tifis.y -= 10;
+    dibujar();
+}
+
+function abajo()
+{
+    tifis.y += 10;
     dibujar();
 }
