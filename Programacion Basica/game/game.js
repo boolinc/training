@@ -1,6 +1,14 @@
 //"mover" id del boton predeterminado
 
-var tablero;
+var tablero, direccion;
+
+var teclas =
+{
+    UP: 38,
+    DOWN: 40,
+    LEFT: 37,
+    RIGHT: 39
+}
 
 var fondo = {
     imagenURL:"fondo.png",
@@ -11,7 +19,21 @@ var tifis = {
     x: 100,
     y: 100,
     frenteURL: "diana-frente.png",
-    frenteOK: false
+    frenteOK: false,
+    atrasURL: "diana-atras.png",
+    atrasOK: false,
+    derURL: "diana-der.png",
+    derOK: false,
+    izqURL: "diana-izq.png",
+    izqOK: false,
+    velocidad: 20
+};
+
+var liz = {
+    lizURL: "liz.png",
+    lizOK: false,
+    x: 400,
+    y: 200
 };
 
 function inicio()
@@ -27,17 +49,53 @@ function inicio()
     tifis.frente.src = tifis.frenteURL;
     tifis.frente.onload = confirmarFrente;
 
-    var d = document.getElementById("derecha");
-    d.addEventListener("click", derecha);
+    tifis.atras = new Image();
+    tifis.atras.src = tifis.atrasURL;
+    tifis.atras.onload = confirmarAtras;
 
-    var i = document.getElementById("izquierda");
-    i.addEventListener("click", izquierda);
+    tifis.izq = new Image();
+    tifis.izq.src = tifis.izqURL;
+    tifis.izq.onload = confirmarIzq;
 
-    var a = document.getElementById("arriba");
-    a.addEventListener("click", arriba);
+    tifis.der = new Image();
+    tifis.der.src = tifis.derURL;
+    tifis.der.onload = confirmarDer;
 
-    var b = document.getElementById("abajo");
-    b.addEventListener("click", abajo);
+    liz.lizy = new Image();
+    liz.lizy.src = liz.lizURL;
+    liz.lizy.onload = confirmarLiz();
+
+    document.addEventListener("keydown", teclado);
+}
+function teclado(datos)
+{
+    var codigo = datos.keyCode;
+
+    if(codigo == teclas.UP)
+    {
+        tifis.y -= tifis.velocidad;
+    }
+    if(codigo == teclas.DOWN)
+    {
+        tifis.y += tifis.velocidad;
+    }
+    if(codigo == teclas.LEFT)
+    {
+        tifis.x -= tifis.velocidad;
+    }
+    if(codigo == teclas.RIGHT)
+    {
+        tifis.x += tifis.velocidad;
+    }
+
+    direccion = codigo;
+
+    dibujar();
+}
+function confirmarLiz()
+{
+    liz.lizOK = true;
+    dibujar();
 }
 function confirmarFondo()
 {
@@ -49,36 +107,51 @@ function confirmarFrente()
     tifis.frenteOK = true;
     dibujar();
 }
+function confirmarAtras()
+{
+    tifis.atrasOK = true;
+    dibujar();
+}
+function confirmarIzq()
+{
+    tifis.izqOK = true;
+    dibujar();
+}
+function confirmarDer()
+{
+    tifis.derOK = true;
+    dibujar();
+}
 function dibujar()
 {
     if(fondo.imagenOK == true)
     {
         tablero.drawImage(fondo.imagen, 0,0);
     }
-    if(tifis.frenteOK == true)
+    if(liz.lizOK == true)
     {
-        tablero.drawImage(tifis.frente, tifis.x,tifis.y);
+        tablero.drawImage(liz.lizy, liz.x, liz.y);
     }
-}
-function derecha()
-{
-    tifis.x += 10;
-    dibujar();
-}
-function izquierda()
-{
-    tifis.x -= 10;
-    dibujar();
-}
+    var tifiDibujo = tifis.frente;
 
-function arriba()
-{
-    tifis.y -= 10;
-    dibujar();
-}
-
-function abajo()
-{
-    tifis.y += 10;
-    dibujar();
+    if(tifis.frenteOK && tifis.atrasOK && tifis.derOK && tifis.izqOK)
+    {
+        if(direccion == teclas.UP)
+        {
+            tifiDibujo = tifis.atras;
+        }
+        if(direccion == teclas.DOWN)
+        {
+            tifiDibujo = tifis.frente;
+        }
+        if(direccion == teclas.LEFT)
+        {
+            tifiDibujo = tifis.izq;
+        }
+        if(direccion == teclas.RIGHT)
+        {
+            tifiDibujo = tifis.der;
+        }
+        tablero.drawImage(tifiDibujo, tifis.x,tifis.y);
+    }
 }
