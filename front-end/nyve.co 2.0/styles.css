@@ -1,0 +1,159 @@
+/* @ Efecto scroll deslizante a pantalla completa usando solo css
+@ author Agust�n Baraza (contacto@nosolocss.com)
+@ Copyright 2014 nosolocss.com. All rights reserved
+@ http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+@ link http://www.nosolocss.com  */
+
+html{
+	width:100%;
+	height:100%;
+}
+body{
+	margin:0;
+	width:100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#3DC7FD;
+}
+#logo{
+    background-image:url("img/nyvelogo.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    /*border: 2.5px solid #FFF;*/
+    margin: auto;
+}
+#boton{
+	width: 50px;
+	height: 50px;
+}
+a{
+	text-decoration:none;
+	color:#111;
+}
+
+
+.panel{
+	position:relative;
+	width:100%;
+	height:0;
+	overflow:hidden;
+	-webkit-transition: all 700ms ease-out;
+	-moz-transition:all 700ms ease-out;
+	transition: all 700ms ease-out;
+}
+
+.panel p{
+	position:absolute;
+	font-size:55px;
+	width:100%;
+	text-align:center;
+	top:2%;
+	z-index:9999;
+}
+
+.panel p a{
+	font-size:55px;
+	text-decoration:none;
+}
+.panel p a:hover{
+
+	color:#01DF01;
+
+}
+
+
+/*.next{
+	position:absolute;
+	bottom:10px;
+	width:100%;
+	text-align:center;
+	font-size:35px;
+}
+.next:active{
+	font-size:32px;
+}*/
+#inicio{
+	position:absolute;
+	width:100%;
+	height:100%;
+	font-size:70px;
+	overflow:hidden;
+}
+#inicio p{
+	font-size:100px;
+	width:100%;
+	text-align:center;
+	line-height:20px;
+	color: #FFF;
+}
+#inicio p ~ p{
+	font-size:50px;
+
+}
+#inicio a:hover{
+	color:#46A9E6;
+}
+#escena1{
+	background-color:#2B8BB1;
+	display: flex;
+}
+
+#escena2{
+	background-color:#185065;
+}
+
+#escena3{
+	background-color:#061419;
+}
+
+.panel:target{
+	height:100%;
+}
+-----------
+.title{
+    width: 100%;
+    heigth: 50px;
+    background: rgba(0, 0, 0, 0.2);
+    justify-content:center;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+}
+#down{
+    height: 25px;
+    width: 100%;
+    border: 2.5px solid #EE22FF;
+    display: flex;
+    justify-content:space-around;
+    color: #636363;
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+#pro{
+
+    background-image:url("img/pro.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    /*border: 2.5px solid #AAFF00;*/
+}
+#qen{
+    /*border: 2.5px solid #AAFF00;*/
+    background-image:url("img/qen.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+#cot{
+    background-image:url("img/cot.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    /*border: 2.5px solid #AAFF00;*/
+}
+#nyve{
+	background-image:url("img/nyvelogo.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	/*border: 2.5px solid #AAFF00;*/
+}

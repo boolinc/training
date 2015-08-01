@@ -1,0 +1,38 @@
+body {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+h2.introduccion {
+    font-size: 49px;
+    text-shadow: 0px 3px 4px rgba(0,0,0,.5);
+}
+#intro {
+    background: url(../images/img01.jpg) 50% 0 fixed;
+    min-height: 700px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 100px 0;
+}
+.intro-unit {
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+#bloque1 {
+    background-color: #000000;
+    margin: 0 auto;
+    width: 100%;
+}
+#bloque-img2 {
+    background: url(../images/img02.jpg) 50% 0 fixed ;
+     height: 300px;
+    padding: 100px 0;
+}
+#bloque2 {
+    background-color: #000000;
+    margin: 0 auto;
+    width: 100%;
+    color: #fff;
+}
+
