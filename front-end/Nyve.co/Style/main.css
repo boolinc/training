@@ -5,17 +5,22 @@
 html,body{
     margin:0px;
     height:100%;
+    /*overflow:hidden;*/
+    background-color: #000;
 }
-#header{
+.sector{
     height: 100%;
     width: 100%;
+    background:no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#header{
     /*border: 3px solid #FFF;*/
     background-image:url("../img/0nyve.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:100%;
     content-align: center;
-
     /*background: #3DC7FD;*7
     /*padding-top: 100px;*/
 }
@@ -27,104 +32,63 @@ html,body{
     width: 400px;
     height: 400px;
     margin:0px auto;
-    padding-top:20%;
+    padding-top: 5%;
     /*border: 2.5px solid #FFF;*/
-
-
 }
-.title{
+h1{
     width: 100%;
-    heigth: 50px;
+    heigth: auto;
     background: rgba(0, 0, 0, 0.8);
-    justify-content:center;
     font-size: 5em;
     text-align: center;
     color: white;
     font-family:aaargh;
 }
 #one{
-    height: 100%;
-    width: 100%;
-    /*border: 3px solid #FFF;*/
-    /*background: #2B8BB1;*/
     background-image:url("../img/1nyve.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:100%;
+    /*border: 3px solid #FFF;*/
 }
 #two{
-    height: 100%;
-    width: 100%;
     background-image:url("../img/2nyve.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:100%;
     /*border: 3px solid #FFF;*/
 }
 #three{
-    height: 100%;
-    width: 100%;
     background-image:url("../img/3nyve.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:100%;
     /*border: 3px solid #FFF;*/
 }
 #midder{
-    height: 25%;
+    height: 20%;
     width: 100%;
-    /*border: 2.5px solid #EE22FF;*/
     display: flex ;
     justify-content:space-around;
-    font-size: 20px;
-    font-family: aaargh;
-    font-weight: bold;
-    color: #636363;
-    padding-top: 50px;
-    padding-bottom:50px;
-    display: none;
+    /*border: 2.5px solid #EE22FF;*/
 }
-#qen{
-    height: 140px;
-    width: 140px;
-    /*border: 2.5px solid #AAFF00;*/
-    background-image:url("../img/qen.png");
+.tm{
+    height: auto;
+    width: 10%;
+    cursor: pointer;
     background-size:100%;
     background-repeat: no-repeat;
-    padding-top: 48px;
+    /*border: 2.5px solid #AAFF00;*/
+}
+#qen{
+    background-image:url("../img/qen.png");
 }
 #qen:hover{
     background-image:url("../img/qenhover.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
 }
 #pro{
-    height: 140px;
-    width: 140px;
     background-image:url("../img/pro.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-    padding-top: 48px;
-    /*border: 2.5px solid #AAFF00;*/
 }
 #pro:hover{
     background-image:url("../img/prohover.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
 }
 #cot{
-    height: 140px;
-    width: 140px;
     background-image:url("../img/cot.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-    padding-top: 48px;
-    /*border: 2.5px solid #AAFF00;*/
+
 }
 #cot:hover{
     background-image:url("../img/cothover.png");
-    background-repeat: no-repeat;
-    cursor: pointer;
 }
 @font-face {
     font-family: "cocomat";
@@ -140,39 +104,29 @@ html,body{
     /*border: 2.5px solid #0088FF;*/
     display: flex ;
     justify-content:center;
-    display: none;
+}
+.tmbot{
+    width: 50px;
+    height: 50px;
+    background-size:100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 #facebook{
-    width: 50px;
-    height: 50px;
     background-image:url("../img/facebook.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-}
-#twitter{
-    width: 50px;
-    height: 50px;
-    background-image:url("../img/twitter.png");
-    background-size:100%;
-    background-repeat: no-repeat;
-}
-#youtube{
-    width: 50px;
-    height: 50px;
-    background-image:url("../img/youtube.png");
-    background-size:100%;
-    background-repeat: no-repeat;
 }
 #facebook:hover{
     background-image:url("../img/facebookcolor.png");
-    color:#000;
-    cursor: pointer;
+}
+#twitter{
+    background-image:url("../img/twitter.png");
 }
 #twitter:hover{
     background-image:url("../img/twittercolor.png");
-    cursor: pointer;
+}
+#youtube{
+    background-image:url("../img/youtube.png");
 }
 #youtube:hover{
     background-image:url("../img/youtubecolor.png");
-    cursor: pointer;
 }
