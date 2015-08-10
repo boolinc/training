@@ -8,15 +8,6 @@ html,body{
     /*overflow:hidden;*/
     background-color: #000;
 }
-.sector{
-    height: 100%;
-    width: 100%;
-    background:no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
 #header{
     /*border: 3px solid #FFF;*/
     background-image:url("../img/0nyve.jpg");
@@ -33,7 +24,73 @@ html,body{
     height: 400px;
     margin:0px auto;
     padding-top: 5%;
+    padding-bottom: 2.5%;
     /*border: 2.5px solid #FFF;*/
+}
+#flecha{
+    background-image:url("../img/flecha.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    margin:0px auto;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-top: 2%;
+  }
+
+  to {
+    margin-bottom: 100%;
+  }
+}
+.contenedor{
+    width: 100%;
+    height: 100px;
+    /*border: 2.5px solid #0088FF;*/
+    display: flex ;
+    justify-content:center;
+}
+#flex{
+    justify-content: space-around;
+    width: 100%;
+    height: 7%;
+    padding-bottom:5%;
+}
+.tm{
+    height: 70%;
+    width: 25%;
+    cursor: pointer;
+    background-size:100%;
+    background-repeat: no-repeat;
+    border: 5px solid #FFF;
+    font-size: 150%;
+    font-family:aaargh;
+    text-align: center;
+    padding-top: 1.5px;
+    color: #FFF;
+    text-shadow: black 0.1em 0.1em 0.6em;
+    font-weight:900;
+    background: rgba(18, 156, 247, 0.3);
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.tm:hover{
+    background: rgba(18, 156, 247, 0.9);
+}
+.sector{
+    height: 100%;
+    width: 100%;
+    background:no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 h1{
     width: 100%;
@@ -56,54 +113,26 @@ h1{
     background-image:url("../img/3nyve.jpg");
     /*border: 3px solid #FFF;*/
 }
-#midder{
-    height: 20%;
-    width: 100%;
-    display: flex ;
-    justify-content:space-around;
-    /*border: 2.5px solid #EE22FF;*/
+.parte{
+    height:100%;
+    width: 45%;
+    background: rgba(255, 255, 255, 0.3);
 }
-.tm{
-    height: auto;
-    width: 10%;
-    cursor: pointer;
-    background-size:100%;
-    background-repeat: no-repeat;
-    /*border: 2.5px solid #AAFF00;*/
+#parteone{
+    margin-left: 2.5%;
 }
-#qen{
-    background-image:url("../img/qen.png");
+#partetwo{
+    margin-left: 52.5%;
 }
-#qen:hover{
-    background-image:url("../img/qenhover.png");
-}
-#pro{
-    background-image:url("../img/pro.png");
-}
-#pro:hover{
-    background-image:url("../img/prohover.png");
-}
-#cot{
-    background-image:url("../img/cot.png");
-
-}
-#cot:hover{
-    background-image:url("../img/cothover.png");
-}
-@font-face {
-    font-family: "cocomat";
-    src: url("../fonts/Cocomat Ultralight-trial.ttf") format("truetype"),
-         url("../fonts/Cocomat Light-trial.ttf") format("truetype");
-
-         font-family: "aaargh";
-         src: url("../fonts/Aaargh.ttf") format("truetype"),
-}
-#bottom{
-    width: 100%;
-    height: 100px;
-    /*border: 2.5px solid #0088FF;*/
-    display: flex ;
-    justify-content:center;
+p{
+    font-size: 2em;
+    color: #FFF;
+    /*text-shadow: black 0.1em 0.1em 0.2em;*/
+    /*text-align : justify;*/
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    /*font-weight: 900;*/
+    padding: 5% 5% 5% 5%;
 }
 .tmbot{
     width: 50px;
@@ -129,4 +158,12 @@ h1{
 }
 #youtube:hover{
     background-image:url("../img/youtubecolor.png");
+}
+@font-face {
+    font-family: "cocomat";
+    src: url("../fonts/Cocomat Ultralight-trial.ttf") format("truetype"),
+         url("../fonts/Cocomat Light-trial.ttf") format("truetype");
+
+         font-family: "aaargh";
+         src: url("../fonts/Aaargh.ttf") format("truetype"),
 }
