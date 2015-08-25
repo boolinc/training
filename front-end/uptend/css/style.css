@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin:0px;
+    height:100%;
+    /*overflow:hidden;*/
+    background-color: #8EE9D7;
+}
+#logo{
+  background-image:url("../img/uptendlogo.png");
+  height: 500px;
+  width: 500px;
+  background-position: center;
+  background-size: 125%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+}
