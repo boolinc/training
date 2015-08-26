@@ -5,12 +5,37 @@
     <title>Uptend e-learning</title>
     <link rel="shortcut icon" href="img/uptendlogo.png">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/javascript.js">
+    </script>
+    <style type="text/css">
+    #page{
+        height: 100%;
+        width: auto;
+        /*border: 1px solid black;*/
+        background-image: url("img/fondonubes.png");
+        /*background-repeat: no-repeat;
+        background-size: 90%;*/
+    }
+    </style>
 </head>
 <body>
-  <h1 class="intro">¡Bienvenido a una nueva experiencia en eduacion!</h1>
-  <div id=logo>
-
-  </div>
+    <div id="page">
+        <h1 class="intro">¡Bienvenido a una nueva experiencia en educacion!</h1>
+        <div id=logo></div>
+        <h1 class="intro" id="name">Uptend</h1>
+        <div class="base"></div>
+        <script type="text/javascript">
+            window.onload = function() {
+                var page = document.getElementById('page');
+                page.onmousemove = function(e) {
+                    var x = -(e.clientX - this.offsetTop / 10);
+                    var y = -(e.clientY - this.offsetLeft / 10);
+                    this.style.backgroundPosition = x + 'px ' + y + 'px';
+                };
+            };
+        </script>
+    </div>
+    <div class="information">
+    </div>
 </body>
 </html>

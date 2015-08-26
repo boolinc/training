@@ -9,45 +9,47 @@ html,body{
     background-color: #6cc497;
 }
 .intro{
-  font-size: 2em;
-  font-family:MyriadPro;
-  color: #FFF;
-  text-align: center;
-  padding-top: 2.5%;
+    font-size: 3.5em;
+    font-family:MyriadPro;
+    color: #FFF;
+    text-align: center;
+    padding-top: 2.5%;
 }
 #logo{
-  background-image:url("../img/uptendlogo.png");
-  height: 350px;
-  width: 350px;
-  background-position: center;
-  background-size: 125%;
-  /*border: 1px solid black;/*/
-  background-repeat: no-repeat;
-  margin-left: 38%;
+    background-image:url("../img/uptendlogo.png");
+    height: 38%;
+    width: 100%;
+    background-size: 13.5% auto;
+    background-position:center top;
+    background-repeat: no-repeat;
+    /*border: 1px solid black;*/
+    margin-top: 5%;
 }
-
+#name{
+    font-size: 5.5em;
+    font-family:MyriadProSemiboldItalic;
+}
+.base{
+    height:150px;
+    width: 100%;
+    background-image: url("../img/nubebase.png");
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-position:center bottom;
+    /*border: 1px solid black;*/
+    position: absolute;
+    bottom: 0;
+}
+.information{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
 @font-face{
-font-family:"MyriadPro";
-src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.woff") format("woff");
+    font-family:"MyriadPro";
+    src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.woff") format("woff");
 }
-
-@font-face {
-font-family: 'Myriad Pro Condensed';
-font-style: normal;
-font-weight: normal;
-src: local('Myriad Pro Condensed'), url('MYRIADPRO-COND.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Myriad Pro Semibold Italic';
-font-style: normal;
-font-weight: normal;
-src: local('Myriad Pro Semibold Italic'), url('MYRIADPRO-SEMIBOLDIT.woff') format('woff');
-}
-
-@font-face {
-font-family: 'Myriad Pro Semibold';
-font-style: normal;
-font-weight: normal;
-src: local('Myriad Pro Semibold'), url('MYRIADPRO-SEMIBOLD.woff') format('woff');
+@font-face{
+    font-family:"MyriadProSemiboldItalic";
+    src: url("../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.woff")format('woff');
 }
