@@ -45,6 +45,23 @@ html,body{
     width: 100%;
     background-color: #FFF;
 }
+p{
+    font-size:3em;
+    color:#6cc497;
+    text-align: justify;
+}
+span{
+    font-style:italic;
+    font-style:bold;
+    font-size:1em;
+}
+.part{
+    height:auto;
+    width:50%;
+    padding-top:5%;
+    padding-left:5%;
+    font-family:MyriadPro;
+}
 @font-face{
     font-family:"MyriadPro";
     src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.woff") format("woff");
