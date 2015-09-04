@@ -28,16 +28,18 @@
             window.onload = function() {
                 var page = document.getElementById('page');
                 page.onmousemove = function(e) {
-                    var x = -(e.clientX - this.offsetTop / 10);
+                    var x = -(e.clientX - this.offsetTop / 5000);
                     var y = -(e.clientY - this.offsetLeft / 10);
-                    this.style.backgroundPosition = x + 'px ' + y + 'px';
+                    this.style.backgroundPosition = x + 'px '; //+ y + 'px';
                 };
             };
         </script>
     </div>
     <div class="information">
         <div class="part">
-            <p class="derecha">Uptend es una plataforma de e-learning y creacion de startup's </br>
+            <p class="derecha">Uptend es una plataforma de e-learning y creacion de startup's.
+            </br>
+            </br>
                <span>Maneja un Metodo de educacion Facil para todos</span>; asi
                Cualquier persona podra aprender a crear su propia empresa.
             </p>
