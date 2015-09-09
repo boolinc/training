@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin:0px;
+    height:100%;
+    /*overflow:hidden;*/
+    background-color: #6cc497;
+    background-image:url("../img/fondonubes.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+h1{
+  padding-top: 5%;
+  font-size: 3em;
+  color: #FFF;
+  overflow: hidden;
+  text-align: center;
+  font-family: GeosansLight;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height: auto;
+  /*border: 2.5px solid #05F;*/
+  justify-content: space-around;
+}
+p{
+  font-size: 2em;
+  color: #FFF;
+  /*text-shadow: black 0.1em 0.1em 0.2em;*/
+  text-align : justify;
+  font-family:GeosansLight;
+  overflow: hidden;
+  /*font-weight: 900;*/
+  padding: 5% 5% 5% 5%;
+}
+button{
+  font-size: 1.5em;
+  color:white;
+  background-color: inherit;
+  border-color: #FFF;
+  border-width:2.5px;
+  border-style:dashed;
+  font-family: GeosansLight;
+}
