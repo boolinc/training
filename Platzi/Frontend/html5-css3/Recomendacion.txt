@@ -1,7 +1,0 @@
-Enlaces recomendados:
-
-https://github.com/Wakkos/CSS-Guidelines
-https://developer.mozilla.org/es/docs/Web/HTML/Atributos
-http://codepen.io/Wakkos/pen/xAhdq
-https://github.com/daylerees/colour-schemes
-http://www.paulirish.com/2012/box-sizing-border-box-ftw/
