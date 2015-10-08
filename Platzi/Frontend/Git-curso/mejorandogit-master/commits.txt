@@ -1,0 +1,499 @@
+commit 5a2a8a59da30198794254cb77a6c5738986b90fd
+Author: javico <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 20:34:34 2015 +0000
+
+    yolo
+
+commit 42b804e4241bfa1ff4def25a7472ac40f6966c2b
+Author: javico <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 20:32:33 2015 +0000
+
+    cambios
+
+commit d1a333e2809cb6e4396ecd4d9c3698a5bd6d874c
+Author: javico <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 20:31:50 2015 +0000
+
+    otro commit
+
+commit 9829ccf106d076dc4a56928f6e2c0c85ca67a8aa
+Author: javico <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 20:28:46 2015 +0000
+
+    commit 2
+
+commit ed9aec1597fab1a6810c89394ba212a8e2c6df33
+Author: javico <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 20:27:21 2015 +0000
+
+    Hola
+
+commit 16f3ba95e6ff4a264e294f05469af95a2f97a20d
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 15:19:21 2015 -0500
+
+    otra vez
+
+commit 423af6fb21bf2e3f18cb19247e362609a8e0a140
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 15:10:45 2015 -0500
+
+    por fin , creo
+
+commit 641e56b2736bc81da0d0c14fba76570b29f38467
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 15:06:49 2015 -0500
+
+    borré todo!
+
+commit e1d8f2bc3b922bff70438c6c08cbde6e65db6e8b
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 15:00:10 2015 -0500
+
+     agregando cursos de nuevo
+
+commit dc61dc3f9f78facbcef97c6ad2ef0cadb9305d9e
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Oct 8 14:51:56 2015 -0500
+
+    agragando cursos
+
+commit b8f072a09d18f5b5bb1a48f02112de48ef8d13e3
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Sep 15 18:10:03 2015 -0500
+
+    uptend local fase 1
+
+commit 49158a92c0f194dcdc08a4a226bcfdc2138cd9d8
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Sep 15 16:01:46 2015 -0500
+
+    editando uptend local
+
+commit fbd2f20e714ee980aa915a3641ff5e7d4f806202
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Sep 15 15:38:12 2015 -0500
+
+    copia para uptend local
+
+commit 6504e9b70aca2d48a5f688cb9cf0a8881422381c
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Tue Sep 15 20:26:56 2015 +0000
+
+    uptend online terminado
+
+commit e75d7ba40f933ddc15a55fc6ca17888c3e6cc382
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Thu Sep 10 11:53:24 2015 +0000
+
+    colores
+
+commit bb5239c9324b6faecfdc1e75d383003eaea4bfa6
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Thu Sep 10 11:35:10 2015 +0000
+
+    agregando links
+
+commit a7e2229e38cf322f788646ca6be739982c0a4007
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Wed Sep 9 16:06:04 2015 -0500
+
+    info
+
+commit f4c5bba7a972f479662d7d4da6ce5564bc5f9271
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Wed Sep 9 00:05:42 2015 -0500
+
+    todo bonito
+
+commit 0ced24dd57a50dc9d03d3a050ea4881260e6efd4
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Sep 8 20:14:39 2015 -0500
+
+    cambiando nombre
+
+commit 2f04425288d3256a0aff11e8a704818d76142d04
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Wed Sep 9 01:09:26 2015 +0000
+
+    arreglos
+
+commit 2ae5f7c6fb2a9fbd6aed9eaeafd097b7d1f9f2c2
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon Sep 7 22:04:30 2015 -0500
+
+    cool
+
+commit 100c9f888e2a90cac45ab81243d990216be480e5
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Mon Sep 7 19:48:44 2015 +0000
+
+    creando pagina de informacion adicional
+
+commit 026c0ae0103c98c4832330202c341cdd40811994
+Merge: 7aa8c7f 7d5ccc1
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Fri Sep 4 19:10:19 2015 +0000
+
+    Merge branch 'master' of github.com:cliffjav/training
+
+commit 7aa8c7f8372550c0c1918fe68b2e0d7a0d9cdc2f
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Fri Sep 4 19:10:00 2015 +0000
+
+    hacer rebase aqui
+
+commit 7d5ccc10afb3a4a2e3af44f6c0b301b75e7e1ede
+Merge: f469f2c 3e6a3a7
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Sep 3 23:05:07 2015 -0500
+
+    Merge branch 'master' of github.com:cliffjav/training
+
+commit f469f2ceb5a01cd594daedd574ad231fefee939a
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sun Aug 30 16:22:50 2015 -0500
+
+    agregando imagenes
+
+commit 3e6a3a779f448b139c18181db3e0b50eaba716ae
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Thu Aug 27 11:55:14 2015 +0000
+
+    cambiar class de <p>
+
+commit b08c23824cd8ece21961ff7f4aa6f206212ae708
+Author: Javier Collazos <javicogomez99@hotmail.com>
+Date:   Thu Aug 27 11:42:19 2015 +0000
+
+    Algunos arreglos
+
+commit 39fafa4b9f5f721d2474c9d19bd0d692fd7aab3c
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Wed Aug 26 00:18:14 2015 -0500
+
+    much better
+
+commit 5d276346d52918b1387fbb08935126d1a220ae0a
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Aug 25 22:57:11 2015 -0500
+
+    fonts and other implements
+
+commit 3a2e55d6d8fdd740deb1a24d6fe1aa9f5e703545
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon Aug 24 23:00:15 2015 -0500
+
+    index for uptend
+
+commit b23b783524482613adc8a4bc085abdc69a29a2d7
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Aug 13 22:13:19 2015 -0500
+
+    arreglos en la seccion de *Contacto*
+
+commit 0eceb84721a533ae3c43af54359c9bb670eddbec
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon Aug 10 12:08:14 2015 -0500
+
+    Contact Works
+
+commit b1fd642ca87a7a0efc7ecea7790c2d9fa71d4282
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sun Aug 9 23:45:19 2015 -0500
+
+    goodbye lennin
+
+commit 6a891dcaa06b1caecde73c4aed3572380434cb77
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri Aug 7 16:41:16 2015 -0500
+
+    ahorro de codigo y nueva imagen
+
+commit 1fa3a37646cca1332db51a727dbb9b46ed848c68
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Aug 6 22:43:02 2015 -0500
+
+    otra mirada a nyve.co
+
+commit c84b0d4b74c373e8582d4816d7c176328645bd3f
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri Jul 31 20:10:08 2015 -0500
+
+    Arreglos
+
+commit 1d396067be78f6d7a1c614603e5baa9ee3993905
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat Jul 25 22:18:40 2015 -0500
+
+    lo mismo pero mejor
+
+commit 3c00833b23f6ca7875bf71c8c3fe9e3ef9a1e8ce
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat Jul 25 13:45:34 2015 -0500
+
+    cambiando el codigo
+
+commit 81249c4b3eefc1c81ac6bcb27819a8a2ab92bd52
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat Jul 25 12:53:14 2015 -0500
+
+    La venganza de Diana
+
+commit a18caa48d043761ef5502cf88733634cf9440999
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri Jul 24 20:43:00 2015 -0500
+
+    come back to platzi
+
+commit e47a033bec31a3c3f18119f0f0699ba28010a7a5
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Jul 21 21:03:06 2015 -0500
+
+    manejo de js
+
+commit c6aa1c7f164c82f1831c0c71e3d8d88b7283a65b
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Jul 21 19:18:00 2015 -0500
+
+    Mejoras visuales
+
+commit 7cb0c367958f4344e1fa3a48a1eee83138c01489
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Tue Jul 21 12:08:08 2015 -0500
+
+    primera fase terminada
+
+commit f1d76930f8f7e1af4760c1b09081b6063838584f
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon Jul 20 23:20:26 2015 -0500
+
+    Ahorro de codigo y mejoras visuales
+
+commit 97375bf4177e805f3d19a51813c9338fc4aa5f9f
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon Jul 20 15:30:13 2015 -0500
+
+    Elaboracion de nyve.co aun no terminado
+
+commit 0220d172300732ba7633883ecb775d23f0a7d4f0
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Thu Jun 25 19:21:20 2015 -0500
+
+    casita cool
+
+commit b18264c0b5e3ed96ccc988b8b11c2bcf7f1f030a
+Merge: e83f950 612bccf
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri Jun 5 15:45:08 2015 -0500
+
+    Merge branch 'master' of github.com:cliffjav/training
+
+commit e83f95088c52e9c09c0f03da687dd04d38001b4d
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri Jun 5 15:43:17 2015 -0500
+
+    number name
+
+commit d80c265b4efa3e6f80ac3a6436e3e686cb123118
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 23 00:27:57 2015 -0500
+
+    ciclos y objetos en index.js
+
+commit b857f9753179924994757efc917903b748fbb00d
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri May 22 23:16:39 2015 -0500
+
+    bitch pls
+
+commit c6603a782073abff1dfba4dece867ea4ea533ba5
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri May 22 22:20:30 2015 -0500
+
+    DOM y practica de ciclos.
+
+commit 03385d32e67f4caca8d547f88c83d2d1d7438d3a
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon May 18 12:44:16 2015 -0500
+
+    Arreglo a diminuto error en readme.md
+
+commit d916aba284abd4723025dde288b63e2ea5ee5822
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon May 18 12:36:57 2015 -0500
+
+    arreglo de pequeños detalles
+
+commit c0969afa58c095c706a47f5618f22eaae48c6421
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sun May 17 22:15:05 2015 -0500
+
+    document.write , Matrices y campo minado
+
+commit 54bb1dc29bc28b6029c4252480ec014259ecdeac
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 16 23:49:34 2015 -0500
+
+    Edicion de README.md y Mejora en el juego.
+
+commit f8cb7bb19fb80fd517757f58fcdeb8e7c6729d5c
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 16 11:10:44 2015 -0500
+
+    Practicando algo de Markdown
+
+commit 612bccfea82eb6b7b7fa7d3c6241cb22626cf44b
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri May 22 23:16:39 2015 -0500
+
+    bitch pls
+
+commit 90c2853ad44da47e75a9d68f6f6ee79fd7d16e73
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Fri May 22 23:05:12 2015 -0500
+
+    Set TODO
+
+commit bfd6e93a66e39cb2ed9dc805f2ef4d0145672887
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Fri May 22 23:01:42 2015 -0500
+
+    Start loop class
+
+commit 8e384c035961ce9c618258782c228a18ef50d762
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Fri May 22 23:00:44 2015 -0500
+
+    Finished conditional stmts
+
+commit c325f5e95e8d35002c56b6646f41032d7de598a1
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Fri May 22 22:20:30 2015 -0500
+
+    DOM y practica de ciclos.
+
+commit 7e969c3e1da65b2473c034e844fc60fd84bd1650
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon May 18 12:44:16 2015 -0500
+
+    Arreglo a diminuto error en readme.md
+
+commit 38d1b7aa55ace60f3b3b2d2a1e47e5d4d23bbc83
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Mon May 18 12:36:57 2015 -0500
+
+    arreglo de pequeños detalles
+
+commit 1023f73d4a9a74c24f824636fe04b76bba6dadbb
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sun May 17 22:15:05 2015 -0500
+
+    document.write , Matrices y campo minado
+
+commit 6870c665f6884cf14c859f9dcb4cf4d0779037f6
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 16 23:49:34 2015 -0500
+
+    Edicion de README.md y Mejora en el juego.
+
+commit d5966d1a0ae5cd10fd086efdb7046b953943c0dd
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 16 11:10:44 2015 -0500
+
+    Practicando algo de Markdown
+
+commit d97df0371e18ba36637a63a3ffb6fa1e4a853acf
+Merge: 0623f6e 67fdefe
+Author: Pablo Andrés Dorado Suárez <pabloandresdorado@hotmail.com>
+Date:   Sat May 16 00:39:18 2015 -0500
+
+    Merge pull request #4 from cliffjav/master
+    
+    Piedra, papel o tijera con js
+
+commit 67fdefe72b9e4a86e532d57dcf2fc83dddc8d82a
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sat May 16 00:33:45 2015 -0500
+
+    Piedra, papel o tijera con js
+
+commit 0623f6edb1424efa7a1d7244a2410152ad04e547
+Merge: 172d189 44d454f
+Author: Pablo Andrés Dorado Suárez <pabloandresdorado@hotmail.com>
+Date:   Sun May 10 17:43:00 2015 -0500
+
+    Merge pull request #3 from cliffjav/master
+    
+    Clase de html (mi primera pagina) y algo de js
+
+commit 44d454f921fcc247e90a5279606d66728a4f55e5
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Sun May 10 01:02:27 2015 -0500
+
+    Clase de html (mi primera pagina) y algo de js
+
+commit 172d189945541aa7910b8a9471adc58ae0802379
+Merge: 0f649ca 17fee07
+Author: Pablo Andrés Dorado Suárez <pabloandresdorado@hotmail.com>
+Date:   Wed May 6 11:27:07 2015 -0500
+
+    Merge pull request #2 from cliffjav/master
+    
+    Solucion a prueba de variables y uso de console.log
+
+commit 17fee07bf5de4b02f2157d5c6944bb720846cd28
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Wed May 6 10:44:57 2015 -0500
+
+    Solucion a prueba de variables y uso de console.log
+
+commit 0f649ca71579bd42231b4051744d50896301574e
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Wed May 6 01:08:34 2015 -0500
+
+    Add conditionals sketch
+
+commit 6e00684ec1f9bbfc6508959d9dd2b3bf634b96e9
+Merge: fdc8917 e189a87
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Wed May 6 00:39:32 2015 -0500
+
+    Merged from @cliffjav
+
+commit e189a8768111c6b5d6c2a922ff2c2cb33d5c5f79
+Author: Javier Collazos <jcollazosgomez@gmail.com>
+Date:   Wed May 6 00:29:26 2015 -0500
+
+    primer commit carajo
+
+commit fdc891738abb2a10be78de8f29fb7ac8ceb4c48b
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Wed May 6 00:26:47 2015 -0500
+
+    Add variables
+
+commit 055302a074d459ba752694e9898a48160e13b9b1
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Tue May 5 23:36:34 2015 -0500
+
+    js-basic course: Variables example (class 1)
+
+commit 058e01559b74ffa943ae5516229851c2f8e9559a
+Merge: 2fc974a 68c6255
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Tue May 5 23:34:11 2015 -0500
+
+    Merge branch 'master' of github.com:boolinc/training
+
+commit 2fc974a8ca0b2777ce1f6f6bfb6f31bb0300996e
+Author: Pablo Andrés Dorado Suárez <pandres95@boolinc.co>
+Date:   Tue May 5 21:58:03 2015 -0500
+
+    Initial commit
+
+commit 68c6255fe07d6c70e6e4abbc56045d6b4d71124b
+Author: Pablo Andrés Dorado Suárez <pabloandresdorado@hotmail.com>
+Date:   Tue May 5 21:54:21 2015 -0500
+
+    Initial commit
