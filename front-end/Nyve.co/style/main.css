@@ -10,31 +10,80 @@ html,body{
 }
 #header{
     /*border: 3px solid #FFF;*/
-    background-image:url("../img/0nyve.jpg");
+    background-image:url("../img/wall2.jpg");
+    background-color: #121236;
+    opacity: 50%;
     content-align: center;
     /*background: #3DC7FD;*7
     /*padding-top: 100px;*/
 }
+#espacio{
+    width: 25%;
+    height: 20%;
+    margin:0px auto;
+}
 #logo{
-    background-image:url("../img/nyvelogo.png");
+    background-image:url("../img/logo.png");
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
     width: 400px;
-    height: 400px;
+    height: 200px;
     margin:0px auto;
-    padding-top: 5%;
-    padding-bottom: 2.5%;
+    padding-top%;
     /*border: 2.5px solid #FFF;*/
 }
+#slogan{
+    background-image:url("../img/Slogan.png");
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 100px;
+    margin:0px auto;
+}
+#slogan2{
+    background-size:70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: auto;
+    margin:0px auto;
+    align-content: center;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+.button {
+    font-family: sans-serif;
+    background-color: #FD6001; /* Green */
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin:0px auto;
+}
+.button:hover {
+    background-color: #ff7e00; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
 #flecha{
-    background-image:url("../img/flecha.png");
+    background-image:url("../img/Button.png");
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
     width: 100px;
     height: 100px;
     margin:0px auto;
+}
+#flecha:hover{
     animation-duration: 1s;
     animation-name: slidein;
     animation-iteration-count: infinite;
