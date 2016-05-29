@@ -23,8 +23,8 @@ html,body{
     margin:0px auto;
 }
 #logo{
-    background-image:url("../img/logo.png");
-    background-size:100%;
+    background-image:url("../img/Logo.png");
+    background-size:80%;
     background-repeat: no-repeat;
     background-position: center;
     width: 400px;
@@ -54,7 +54,7 @@ html,body{
     padding-top: 20px;
 }
 .button {
-    font-family: sans-serif;
+    font-family: GeosansLight;
     background-color: #FD6001; /* Green */
     color: white;
     border: none;
@@ -62,7 +62,7 @@ html,body{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     border-radius: 12px;
     -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -152,7 +152,7 @@ h1{
     font-family:cocomat;
 }
 #one{
-    background-image:url("../img/1nyve.jpg");
+    background-color: #262626;
     /*border: 3px solid #FFF;*/
 }
 #two{
@@ -166,7 +166,7 @@ h1{
 .parte{
     height:100%;
     width: 45%;
-    background: rgba(0, 0, 0, 0.3);
+    background-color: #262626;
 }
 #parteone{
     margin-left: 2.5%;
@@ -197,6 +197,12 @@ input , textarea{
 input[type="text"]:not([size]) , input[type="e-mail"]:not([size]) , textarea {
     width: 15em;
     heigth: auto;
+}
+.float{
+    float: left;
+}
+.float2{
+    float: right;
 }
 .datos{
     /*border: 2.5px solid #05F;*/
@@ -260,4 +266,18 @@ input[type="text"]:not([size]) , input[type="e-mail"]:not([size]) , textarea {
 @font-face{
     font-family:"couture-bld";
     src: url("../fonts/couture-bld.otf") format("truetype");
+}
+
+#div1{
+float:left;
+background:#CC6600;
+}
+#div2{
+float:left;
+background:#000FFF;
+
+}
+#div3{
+clear:both;
+background:#000FFF;
 }
