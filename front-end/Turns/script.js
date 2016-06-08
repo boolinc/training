@@ -1,4 +1,8 @@
-var turno = Math.floor(Math.random() * 7 + 20);
+var turno = Math.floor(Math.random() * 7 + 100);
+var liveturn = Math.floor(Math.random() * 7 );
+var segundos =  Math.floor(Math.random() * 7 + 3);
+
+
 
 function turn() {
     document.getElementById("static-turn").innerHTML = turno;
@@ -17,14 +21,14 @@ function startTimer(duration, display) {
 
         if (--timer < 0) {
             timer = duration;
-            turno ++ ;
-            document.getElementById("static-turn").innerHTML = turno;
+            liveturn ++ ;
+            document.getElementById("live-turn").innerHTML = liveturn;
         }
     }, 1000);
 }
 
 window.onload = function () {
-    var fiveMinutes = 1 * 5,
+    var fiveMinutes = segundos * 5,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
 };s
