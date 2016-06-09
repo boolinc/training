@@ -1,6 +1,8 @@
-var turno = Math.floor(Math.random() * 7 + 100);
+var turno = Math.floor(Math.random() * 7 + 20);
 var liveturn = Math.floor(Math.random() * 7 );
 var segundos =  Math.floor(Math.random() * 7 + 3);
+var notificacionuno = Math.floor(turno / 2);
+var falta = (turno - liveturn);
 
 
 
@@ -24,11 +26,16 @@ function startTimer(duration, display) {
             liveturn ++ ;
             document.getElementById("live-turn").innerHTML = liveturn;
         }
+
     }, 1000);
 }
 
 window.onload = function () {
-    var fiveMinutes = segundos * 5,
+    var fiveMinutes = 1 * 5,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
-};s
+};
+
+if (--live-turn == --notificacionuno) {
+alert ("Te faltan" + falta + " Turnos.");
+};
