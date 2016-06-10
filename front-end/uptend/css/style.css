@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    margin:0px;
+    height:100%;
+    /*overflow:hidden;*/
+    background-color: #6cc497;
+}
+.intro{
+    font-size: 3.5em;
+    font-family:MyriadPro;
+    color: #FFF;
+    text-align: center;
+    padding-top: 2.5%;
+}
+#logo{
+    background-image:url("../img/uptendlogo.png");
+    height: 38%;
+    width: 100%;
+    background-size: 13.5% auto;
+    background-position:center top;
+    background-repeat: no-repeat;
+    /*border: 1px solid black;*/
+    margin-top: 5%;
+}
+#name{
+    font-size: 5.5em;
+    font-family:MyriadProSemiboldItalic;
+}
+.base{
+    height:150px;
+    width: 100%;
+    background-image: url("../img/nubebase.png");
+    background-size: 100%;
+    background-repeat: repeat-x;
+    background-position:center bottom;
+    /*border: 1px solid black;*/
+    position: absolute;
+    bottom: 0;
+}
+.information{
+    height: 100%;
+    width: 100%;
+    background-color: #FFF;
+}
+p{
+    font-size:3em;
+    color:#6cc497;
+    text-align: justify;
+}
+span{
+    font-style:italic;
+    font-style:bold;
+    font-size:1em;
+}
+.part{
+    height:auto;
+    width:50%;
+    padding-top:5%;
+    padding-left:5%;
+    font-family:MyriadPro;
+    content: flex;
+}
+#imagepartone{
+    border:1px solid black;
+}
+@font-face{
+    font-family:"MyriadPro";
+    src: url("../fonts/myriad-pro/MYRIADPRO-REGULAR.woff") format("woff");
+}
+@font-face{
+    font-family:"MyriadProSemiboldItalic";
+    src: url("../fonts/myriad-pro/MYRIADPRO-SEMIBOLDIT.woff")format('woff');
+}
