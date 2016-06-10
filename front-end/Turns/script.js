@@ -1,9 +1,11 @@
-var turno = Math.floor(Math.random() * 7 + 20);
+var turno = Math.floor(Math.random() * 7 + 10);
 var liveturn = Math.floor(Math.random() * 7 );
 var segundos =  Math.floor(Math.random() * 7 + 3);
 var notificacionuno = Math.floor(turno / 2);
 var falta = (turno - liveturn);
-
+var bool = 0;
+var notbool = 0;
+var otrosegundos = 60;
 
 
 function turn() {
@@ -25,17 +27,33 @@ function startTimer(duration, display) {
             timer = duration;
             liveturn ++ ;
             document.getElementById("live-turn").innerHTML = liveturn;
+        };
+
+        if (turno == liveturn) {
+            bool ++;
+        };
+
+        if (bool == 1) {
+            alert("¡Es tu turno!");
+            fiveMinutes = 60 * 1;
+            bool ++;
         }
+
+        if (liveturn == notificacionuno) {
+            notbool ++;
+        };
+
+        if (notbool == 1) {
+            alert("Te faltan " + falta + " turnos.");
+            notbool ++;
+        };
+
 
     }, 1000);
 }
 
 window.onload = function () {
-    var fiveMinutes = 1 * 5,
+    var fiveMinutes = segundos * 1,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
-};
-
-if (--live-turn == --notificacionuno) {
-alert ("Te faltan" + falta + " Turnos.");
 };
